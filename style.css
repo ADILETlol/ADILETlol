@@ -1,0 +1,55 @@
+body{
+position: relative;
+width: 1920px;
+height: 1080px;
+}
+
+ul {
+    justify-content: flex-start;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      }
+      
+      li {
+        float: left;
+      }
+      
+      li a {
+          margin-top: 30px;
+        display: block;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      li:hover{
+          font-size: 20px;
+      }
+
+    
+      .bar-wrapper{
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .assortiment{
+        margin-top: 10%;
+      }
+
+
+
+      .bar{
+        background-color: black;
+        color: wheat;
+        width: 20%;
+        height: 150px;
+        text-align: center;
+        margin: auto;
+      }
+
+      .assortiment-title{
+        text-align: center;
+        margin-bottom: 7%;
+      }
